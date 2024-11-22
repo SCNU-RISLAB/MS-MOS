@@ -7,7 +7,7 @@ Our pretrained model (validation with the IoU of **_77.6%_**) can be downloaded 
 Download SemanticKITTI dataset from [SemanticKITTI](http://www.semantic-kitti.org/dataset.html#download) (including **Velodyne point clouds**, **calibration data** , **pose data** and **label data**).
 #### Preprocessing
 After downloading the dataset, the residual maps as the input of the model during training need to be generated.
-Run [auto_gen_residual_images.py](./MSMOS-V1/utils/auto_gen_residual_images.py) or [auto_gen_residual_images_mp.py](./MSMOS-V1/utils/auto_gen_residual_images_mp.py)(with multiprocess)
+Run [auto_gen_residual_images.py](./MSMOS-v2/utils/auto_gen_residual_images.py) or [auto_gen_residual_images_mp.py](./MSMOS-v2/utils/auto_gen_residual_images_mp.py)(with multiprocess)
 and check that the path is correct before running.
 
 The structure of one of the folders in the entire dataset is as follows:
